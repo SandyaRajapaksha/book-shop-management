@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bookshop Management System</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="add-book.html">Add Book</a>
+            <a href="manage-books.html">Manage Books</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Add a New Book</h2>
+        <form id="add-book-form">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="author">Author:</label>
+            <input type="text" id="author" name="author" required>
+            
+            <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" name="isbn" required>
+            
+            <button type="submit">Add Book</button>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
